@@ -35,25 +35,18 @@
 # for character in range(len(d_string)):
 #     print d_string[character]
 
-string_1 = "ABC"
-string_2 = "CBA"
-
-def are_reverses(string_1, string_2):
-    for i in range(len(string_1)):
-        print string_1[i]
-        i_2 = len(string_2) - i - 1
-        print string_2[i_2]
-        if string_1[i] != string_2[i_2]:
-            print False
-            return False
-    print True
-    return True
-
-are_reverses(string_1,string_2)
-
-#-----------------------------------------------
-#Sample interview Question, Are rooks on a chessboard safe. Take the 2D array and check to see if they are within range of each otherself.
-#-----------------------------------------------
-def rooks_are_safe(input):
-    for i in input:
-        print[i]
+# string_1 = "ABC"
+# string_2 = "CBA"
+#
+# def are_reverses(string_1, string_2):
+#     for i in range(len(string_1)):
+#         print string_1[i]
+#         i_2 = len(string_2) - i - 1
+#         print string_2[i_2]
+#         if string_1[i] != string_2[i_2]:
+#             print False
+#             return False
+#     print True
+#     return True
+#
+# are_reverses(string_1,string_2)
