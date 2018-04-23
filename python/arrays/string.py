@@ -50,3 +50,10 @@ def are_reverses(string_1, string_2):
     return True
 
 are_reverses(string_1,string_2)
+
+#-----------------------------------------------
+#Sample interview Question, Are rooks on a chessboard safe. Take the 2D array and check to see if they are within range of each otherself.
+#-----------------------------------------------
+def rooks_are_safe(input):
+    for i in input:
+        print[i]
